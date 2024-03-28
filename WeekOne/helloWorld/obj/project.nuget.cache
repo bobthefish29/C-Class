@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PqATQZ3bluIatHGxOLUyLGaux+0AwJMt95LFqXUyKQwRrd2xlqbLLRK4FUzyL0P60ApXA/wxVqso74LYSAApfQ==",
+  "dgSpecHash": "vMzodC9oqzJpD3d/4vjcRi5vL7ogkeQLoEjIGQ+a7IfboKOeUrtm30hM+ASIi8EjHdUzGpPjPfixBOGABcjP6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\WeekOne\\helloWorld\\helloWorld.csproj",
+  "projectFilePath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\helloWorld\\helloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

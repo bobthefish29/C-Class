@@ -48,8 +48,8 @@ namespace Week1_Samplel {
 
             //1. this section is for starting the vars
             String strFirst = "test", strOperand, strNum1, strNum2;
-            Int32 intNum1 = 0, intNum2 = 0, intResult = 0;  //intNum3,
-            Double dblResult;
+            //Int32 intNum1 = 0, intNum2 = 0, intResult = 0;  //intNum3,
+            Double dblResult, intNum1 = 0, intNum2 = 0, intResult = 0;
 
 
 
@@ -65,7 +65,7 @@ namespace Week1_Samplel {
             strNum1 = Console.ReadLine ();
 
             Console.Write ("Please enter the math operation (PLUS, MINUS, MULTIPLY, DIVIDE): ");
-            strOperand = Console.ReadLine ();
+            strOperand = Console.ReadLine().ToUpper();
 
             Console.Write ("Please enter the second number: ");
             strNum2 = Console.ReadLine ();

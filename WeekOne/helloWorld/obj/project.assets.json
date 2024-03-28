@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\WeekOne\\helloWorld\\helloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\helloWorld\\helloWorld.csproj",
       "projectName": "helloWorld",
-      "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\WeekOne\\helloWorld\\helloWorld.csproj",
+      "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\helloWorld\\helloWorld.csproj",
       "packagesPath": "C:\\Users\\dpunc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\WeekOne\\helloWorld\\obj\\",
+      "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\helloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dpunc\\AppData\\Roaming\\NuGet\\NuGet.Config"
