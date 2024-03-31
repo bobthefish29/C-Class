@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\bin\Debug\net8.0\firstLab.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\bin\Debug\net8.0\firstLab.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\bin\Debug\net8.0\firstLab.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\bin\Debug\net8.0\firstLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\bin\Debug\net8.0\firstLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\refint\firstLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\firstLab.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\firstLab\obj\Debug\net8.0\ref\firstLab.dll
