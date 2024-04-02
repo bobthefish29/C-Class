@@ -64,11 +64,27 @@ namespace Week1_Samplel {
             Console.Write ("Please enter the first number: ");
             strNum1 = Console.ReadLine ();
 
-            Console.Write ("Please enter the math operation (PLUS, MINUS, MULTIPLY, DIVIDE): ");
+            Console.Write ("Please enter the math operation (PLUS, MINUS, MULTIPLY, DIVIDE, EXPONENT): ");
             strOperand = Console.ReadLine().ToUpper();
 
-            Console.Write ("Please enter the second number: ");
-            strNum2 = Console.ReadLine ();
+
+            //this is to have the exponent, the if else is so if they pick exponent it does that else it would get another number
+            if (strOperand == "EXPONENT"){
+
+                Console.Write ("Please enter the number to raise to: ");
+                strNum2 = Console.ReadLine ();
+            }
+            else{
+
+                Console.Write ("Please enter the second number: ");
+                strNum2 = Console.ReadLine ();
+            }
+
+
+
+            // Console.Write ("Please enter the second number: ");
+            // strNum2 = Console.ReadLine ();
+
 
             intNum1 = Int32.Parse (strNum1);
             intNum2 = Convert.ToInt32 (strNum2);
@@ -90,6 +106,9 @@ namespace Week1_Samplel {
                 case "DIVIDE":
                     intResult = intNum1 / intNum2;
                     break;
+                case "EXPONENT":
+                    intResult = Math.Pow(intNum1, intNum2);
+                    break;
             }
 
 
@@ -106,9 +125,11 @@ namespace Week1_Samplel {
             else if (strOperand == "MINUS")
                 Console.WriteLine ($"\n\nThe difference of {intNum1} and {intNum2} equals: {dblResult}");
             else if(strOperand == "MULTIPLY")
-                Console.WriteLine ($"\n\nThe difference of {intNum1} and {intNum2} equals: {dblResult}");
+                Console.WriteLine ($"\n\nThe product of {intNum1} and {intNum2} equals: {dblResult}");
             else if (strOperand == "DIVIDE")
                 Console.WriteLine ($"\n\nThe quotient of {intNum1} and {intNum2} equals: {dblResult}");
+            else if (strOperand == "EXPONENT")
+                Console.WriteLine ($"\n\nThe product of {intNum1} raised to the {intNum2} power equals: {dblResult}");
 
             //1. this is just keeping the program running 
             Console.WriteLine ("\n\nPress Any Key to Continue");
