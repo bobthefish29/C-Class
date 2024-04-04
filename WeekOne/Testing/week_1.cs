@@ -121,7 +121,7 @@ namespace Week2Lab {
                 //this is adding the value of the average to a arrary 
                 averageArrary[studentCount] = studentTotal;
 
-                if(studentTotal)
+                
 
 
 
