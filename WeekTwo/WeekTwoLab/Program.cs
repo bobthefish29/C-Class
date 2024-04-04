@@ -1,4 +1,4 @@
-// See https://aka.ms/new-console-template for more information
+﻿// See https://aka.ms/new-console-template for more information
 
 
 namespace Week2Lab {
@@ -8,7 +8,8 @@ namespace Week2Lab {
             String studentNumStr, name, lab1, lab2, lab3, lab4, lab5;
             // string[] nameArrary;
 
-            Int32 studentNumInt = 0, studentCount = 0, studentTotal = 0, lab1Num = 0, lab1Total = 0, lab2Num = 0, lab2Total = 0, lab3Num = 0, lab3Total = 0, lab4Num = 0, lab4Total = 0, lab5Num = 0, lab5Total = 0;
+            Int32 studentNumInt = 0, studentCount = 0;
+            Double lab1Num = 0, lab1Total = 0, lab2Num = 0, lab2Total = 0, lab3Num = 0, lab3Total = 0, lab4Num = 0, lab4Total = 0, lab5Num = 0, lab5Total = 0;
 
             bool correctInput = false;
 
@@ -26,10 +27,10 @@ namespace Week2Lab {
             } while (correctInput == false);
 
             string[] nameArrary = new string[studentNumInt];
-            int[] averageArrary = new int[studentNumInt];
+            double[] averageArrary = new double[studentNumInt];
 
             while(studentCount != studentNumInt){
-                studentTotal = 0;
+                Double studentTotal = 0;
 
 
                 //this is the everything for the name: Getting input, than adding it to an arrary
@@ -44,7 +45,7 @@ namespace Week2Lab {
                     Console.WriteLine("\nWhat is " + name + "'s lab#1 grade: ");
                     lab1 = Console.ReadLine();
 
-                    correctInput = Int32.TryParse(lab1, out lab1Num);
+                    correctInput = Double.TryParse(lab1, out lab1Num);
                     if (correctInput == false) {
                         Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
                     }
@@ -59,7 +60,7 @@ namespace Week2Lab {
                     Console.WriteLine("\nWhat is " + name + "'s lab#2 grade: ");
                     lab2 = Console.ReadLine();
 
-                    correctInput = Int32.TryParse(lab2, out lab2Num);
+                    correctInput = Double.TryParse(lab2, out lab2Num);
                     if (correctInput == false) {
                         Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
                     }
@@ -74,7 +75,7 @@ namespace Week2Lab {
                     Console.WriteLine("\nWhat is " + name + "'s lab#3 grade: ");
                     lab3 = Console.ReadLine();
 
-                    correctInput = Int32.TryParse(lab3, out lab3Num);
+                    correctInput = Double.TryParse(lab3, out lab3Num);
                     if (correctInput == false) {
                         Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
                     }
@@ -89,7 +90,7 @@ namespace Week2Lab {
                     Console.WriteLine("\nWhat is " + name + "'s lab#4 grade: ");
                     lab4 = Console.ReadLine();
 
-                    correctInput = Int32.TryParse(lab4, out lab4Num);
+                    correctInput = Double.TryParse(lab4, out lab4Num);
                     if (correctInput == false) {
                         Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
                     }
@@ -104,7 +105,7 @@ namespace Week2Lab {
                     Console.WriteLine("\nWhat is " + name + "'s lab#5 grade: ");
                     lab5 = Console.ReadLine();
 
-                    correctInput = Int32.TryParse(lab5, out lab5Num);
+                    correctInput = Double.TryParse(lab5, out lab5Num);
                     if (correctInput == false) {
                         Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
                     }
@@ -117,11 +118,10 @@ namespace Week2Lab {
                 //This is the math for the avaerage
                 studentTotal = studentTotal / 5;
 
-
                 //this is adding the value of the average to a arrary 
                 averageArrary[studentCount] = studentTotal;
 
-                if(studentTotal)
+                //this is where i would put the if for the letter value
 
 
 

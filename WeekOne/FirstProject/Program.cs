@@ -64,6 +64,8 @@ namespace Week1_Samplel {
             Console.Write ("Please enter the first number: ");
             strNum1 = Console.ReadLine ();
 
+            
+
             Console.Write ("Please enter the math operation (PLUS, MINUS, MULTIPLY, DIVIDE, EXPONENT): ");
             strOperand = Console.ReadLine().ToUpper();
 
