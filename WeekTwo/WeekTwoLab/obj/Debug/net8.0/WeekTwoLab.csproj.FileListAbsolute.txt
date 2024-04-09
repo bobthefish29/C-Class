@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\bin\Debug\net8.0\WeekTwoLab.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\bin\Debug\net8.0\WeekTwoLab.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\bin\Debug\net8.0\WeekTwoLab.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\bin\Debug\net8.0\WeekTwoLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\bin\Debug\net8.0\WeekTwoLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\refint\WeekTwoLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\WeekTwoLab.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekTwo\WeekTwoLab\obj\Debug\net8.0\ref\WeekTwoLab.dll

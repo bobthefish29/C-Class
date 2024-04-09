@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\firstLab\\firstLab.csproj": {}
+    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekTwo\\WeekTwoLab\\WeekTwoLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\firstLab\\firstLab.csproj": {
+    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekTwo\\WeekTwoLab\\WeekTwoLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\firstLab\\firstLab.csproj",
-        "projectName": "firstLab",
-        "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\firstLab\\firstLab.csproj",
+        "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekTwo\\WeekTwoLab\\WeekTwoLab.csproj",
+        "projectName": "WeekTwoLab",
+        "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekTwo\\WeekTwoLab\\WeekTwoLab.csproj",
         "packagesPath": "C:\\Users\\dpunc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\firstLab\\obj\\",
+        "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekTwo\\WeekTwoLab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpunc\\AppData\\Roaming\\NuGet\\NuGet.Config"
