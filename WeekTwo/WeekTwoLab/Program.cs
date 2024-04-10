@@ -186,11 +186,11 @@ namespace Week2Lab {
 
             //##############-----------------Final outputs-----------------###################
             Console.WriteLine("\n-----Final OutPut----");
-            Console.WriteLine("Name   |   Avarage   |   LetterGrade");
+            Console.WriteLine("Name\tAvarage\t\tLetterGrade");
             Console.WriteLine("----------------------------------");
             //Just looping thought the lenth of any arrary than that item at that index would be put down
             for(int i = 0; i < nameArrary.Length; i++){
-                Console.WriteLine(nameArrary[i]+ "  |  " + averageArrary[i] + "  |  " + letterArrary[i]);
+                Console.WriteLine(nameArrary[i]+ "\t" + averageArrary[i] + "\t\t" + letterArrary[i]);
             }
             //just the averages for the labs, it could have been in a loop so its not this but what works works
             Console.WriteLine("\n\nThe average for Lab#1 is: " + lab1Total);

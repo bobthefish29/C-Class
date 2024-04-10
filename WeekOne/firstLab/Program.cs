@@ -58,6 +58,8 @@ namespace gradeCalk{
 
             final = total / grade;
 
+            final = Math.Floor(final);
+
             //this is where we are putting the letter grade
             if (final >= 90)
                 letterGrade = "A";
