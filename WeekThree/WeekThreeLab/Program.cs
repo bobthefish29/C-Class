@@ -1,6 +1,6 @@
 ﻿//David Punchak
-//Lab #2
-//04\04\24
+//Lab #3
+//04\11\24
 
 //#############----------Create a program that------------##############:
 
@@ -13,39 +13,20 @@
 // 4. Drop down a line or two, and then display the average for each lab #.  (Average grade on Lab #1 for all students)
 
 //#############---------Main Code--------###########
-//I still dont know why or what the 3 first lines of code mean
-namespace Week2Lab {
+
+
+
+//The lab works but i did not use a forEach Loop, i used just normal for loops
+
+
+namespace Week2_Sample1 {
     class Program {
 
-
-        static void labsInput(){
-
-
-            
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        static void Main (string[] args) {
-            
-            //this is just setting vars for the project
-            String studentNumStr, name, lab1, lab2, lab3, lab4, lab5, letterGrade;
-            Int32 studentNumInt = 0, studentCount = 0;
-            Double lab1Num = 0, lab1Total = 0, lab2Num = 0, lab2Total = 0, lab3Num = 0, lab3Total = 0, lab4Num = 0, lab4Total = 0, lab5Num = 0, lab5Total = 0;
-            bool correctInput = false;
-
-
-            //This is just checking to see if the user entered a number, it not it runs again
+        //used for getting the number of students the user want to enter
+        static int studentNum(int inputNumber){
+            bool correctInput;
+            string studentNumStr = "";
+            int studentNumInt = 0;
             do {
                 Console.WriteLine("How many students do you want to enter?: ");
                 studentNumStr = Console.ReadLine ();
@@ -58,176 +39,130 @@ namespace Week2Lab {
                 }
             } while (correctInput == false);
 
-            //This is setting arrarys with the number of students enerted, if the user enters one it would be 1 length, if they did ten it would be ten
-            string[] nameArrary = new string[studentNumInt];
-            double[] averageArrary = new double[studentNumInt];
-            string[] letterArrary = new string[studentNumInt];
 
-            //#################################------Main loop-------------######################3
-            while(studentCount != studentNumInt){
-                //Just setting student total back to 0 for the next student
-                Double studentTotal = 0;
+            return studentNumInt;
+        }
+
+        //string[]VVVV
+        static double doingLab(string name, ref double lab1, ref double lab2,ref double lab3,ref double lab4,ref double lab5){
+
+            //Working on just doing the math after
+
+            bool correctInput = false;
+            double labNum = 0, studentTotal = 0;
+            var lab = new String[5];
+            var labTotal = new double[5];
+            
+            for(int i = 0; i <= lab.Length - 1; i++)
+            {
+                //all of this is used for the labs
+                do{
+                    Console.WriteLine("\nWhat is " + name + "'s lab#"+ (i + 1) + " grade: ");
+
+                    lab[i] = Console.ReadLine();
+                    
+                    correctInput = Double.TryParse(lab[i], out labNum);
+
+                    if (correctInput == false) {
+                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
+                    }
+
+                } while(correctInput == false);
+                //after chicking if its a number it adds that number to a total counters
+                labTotal[i] += labNum;
+                studentTotal += labNum;
 
 
-                //this is the everything for the name: Getting input, than adding it to an arrary
+                if (i == 0)
+                    lab1 += labNum;
+                else if (i == 1)
+                    lab2 += labNum;
+                else if (i == 2)
+                    lab3 += labNum;
+                else if (i == 3)
+                    lab4 += labNum;
+                else
+                    lab5 += labNum;
+                    
+                
+                
+            }
+            return studentTotal;
+        }
+
+        static void Main (string[] args) {
+
+            int inputNumber = 0, studentCount = 0, howManyStu = 0;
+            string name = "";
+
+            double lab1 = 0, lab2 = 0, lab3 = 0, lab4 = 0 , lab5 = 0;
+            
+            howManyStu = studentNum(inputNumber);
+
+            string[] nameArrary = new string[howManyStu];
+            double[] avgArrary = new double[howManyStu];
+            string[] letterArrary = new string[howManyStu];
+
+            while (howManyStu != studentCount){
+                
                 Console.WriteLine("\nWho is student " + (studentCount + 1) + ": ");
                 name = Console.ReadLine();
+
                 nameArrary[studentCount] = name;
 
+                avgArrary[studentCount] = doingLab(name, ref lab1, ref lab2, ref lab3, ref lab4, ref lab5);
 
-                //########################-----------------Lab 1--------------------##################################
-                //This is lab 1: gets the input, converts it to a number, it it can't it runs again to get a number
-                do{
-                    Console.WriteLine("\nWhat is " + name + "'s lab#1 grade: ");
-                    lab1 = Console.ReadLine();
-                    
-                    correctInput = Double.TryParse(lab1, out lab1Num);
+                avgArrary[studentCount] = avgArrary[studentCount] / 5;
 
-                    if (correctInput == false) {
-                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
-                    }
+                avgArrary[studentCount] = Math.Floor(avgArrary[studentCount]);
 
-                } while(correctInput == false);
-                //after chicking if its a number it adds that number to a total counters
-                lab1Total += lab1Num;
-                studentTotal += lab1Num;
+                
 
-                //##########################--------------------Lab 2------------------#######################
-                //This is lab 2: gets the input, converts it to a number, it it can't it runs again to get a number
-                do{
-                    Console.WriteLine("\nWhat is " + name + "'s lab#2 grade: ");
-                    lab2 = Console.ReadLine();
-
-                    correctInput = Double.TryParse(lab2, out lab2Num);
-                    if (correctInput == false) {
-                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
-                    }
-
-                } while(correctInput == false);
-                //after chicking if its a number it adds that number to a total counters
-                lab2Total += lab2Num;
-                studentTotal += lab2Num;
-
-                //##############################----------------Lab 3-----------------------#####################
-                //This is lab 3: gets the input, converts it to a number, it it can't it runs again to get a number
-                do{
-                    Console.WriteLine("\nWhat is " + name + "'s lab#3 grade: ");
-                    lab3 = Console.ReadLine();
-
-                    correctInput = Double.TryParse(lab3, out lab3Num);
-                    if (correctInput == false) {
-                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
-                    }
-
-                } while(correctInput == false);
-                //after chicking if its a number it adds that number to a total counters
-                lab3Total += lab3Num;
-                studentTotal += lab3Num;
-
-                //##############################----------------Lab 4-----------------------#####################
-                //This is lab 4: gets the input, converts it to a number, it it can't it runs again to get a number
-                do{
-                    Console.WriteLine("\nWhat is " + name + "'s lab#4 grade: ");
-                    lab4 = Console.ReadLine();
-
-                    correctInput = Double.TryParse(lab4, out lab4Num);
-                    if (correctInput == false) {
-                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
-                    }
-
-                } while(correctInput == false);
-                //after chicking if its a number it adds that number to a total counters
-                lab4Total += lab4Num;
-                studentTotal += lab4Num;
-
-                //##############################----------------Lab 5-----------------------#####################
-                //This is lab 5: gets the input, converts it to a number, it it can't it runs again to get a number
-                do{
-                    Console.WriteLine("\nWhat is " + name + "'s lab#5 grade: ");
-                    lab5 = Console.ReadLine();
-
-                    correctInput = Double.TryParse(lab5, out lab5Num);
-                    if (correctInput == false) {
-                        Console.WriteLine ("\n\nSorry, but you did not enter a valid real number in digits: Ex 1051\n");
-                    }
-
-                } while(correctInput == false);
-                //after chicking if its a number it adds that number to a total counters
-                lab5Total += lab5Num;
-                studentTotal += lab5Num;
-
-
-                //################---------------This is the math for the average, it than rounds the number down,than adding it to a arrary
-                studentTotal = studentTotal / 5;
-                //than it rounds the total down if its a decmal
-                studentTotal = Math.Floor(studentTotal);
-                //this is adding the value of the average to a arrary 
-                averageArrary[studentCount] = studentTotal;
-
-                //#################---------------GEtting a letter value based on the students grade value-----------###################
-                //this is where i would put the if for the letter value
-                if (studentTotal >= 90)
-                    letterGrade = "A";
-                else if (studentTotal >= 80 && studentTotal <= 89)
-                    letterGrade = "B";
-                else if (studentTotal >= 70 && studentTotal <= 79)
-                    letterGrade = "C";
-                else if (studentTotal >= 60 && studentTotal <= 69)
-                    letterGrade = "D";
+                if (avgArrary[studentCount] >= 90)
+                    letterArrary[studentCount] = "A";
+                else if (avgArrary[studentCount] >= 80 && avgArrary[studentCount] <= 89)
+                    letterArrary[studentCount] = "B";
+                else if (avgArrary[studentCount] >= 70 && avgArrary[studentCount] <= 79)
+                    letterArrary[studentCount] = "C";
+                else if (avgArrary[studentCount] >= 60 && avgArrary[studentCount] <= 69)
+                    letterArrary[studentCount] = "D";
                 else 
-                    letterGrade = "F";
+                    letterArrary[studentCount] = "F";
+                //end the if
 
-                //this is adding the letter value (a,b,c,d,f) to the letterArrary at the index
-                letterArrary[studentCount] = letterGrade;
-
-                //adding to the total student count to brake out of the loop
-                studentCount++;
-
-                //Just clearing the console so its not so gross
+            
+                studentCount ++;
                 Console.Clear();
             }
-            
 
-            
-
-            //#############----------This is finding the average for each lab than rounding down------------#################
-            // lab_ = lab_ / total number of students the user inputed at the start
-            lab1Total = lab1Total / studentNumInt;
-            lab2Total = lab2Total / studentNumInt;
-            lab3Total = lab3Total / studentNumInt;
-            lab4Total = lab4Total / studentNumInt;
-            lab5Total = lab5Total / studentNumInt;
-
-            //this is just rounding the lab values down
-            lab1Total = Math.Floor(lab1Total);
-            lab2Total = Math.Floor(lab2Total);
-            lab3Total = Math.Floor(lab3Total);
-            lab4Total = Math.Floor(lab4Total);
-            lab5Total = Math.Floor(lab5Total);
-
-            //##############-----------------Final outputs-----------------###################
+            //Final Outputs   VVVVVVVVVVVVV
             Console.WriteLine("\n-----Final OutPut----");
             Console.WriteLine("Name\tAvarage\t\tLetterGrade");
             Console.WriteLine("----------------------------------");
-            //Just looping thought the lenth of any arrary than that item at that index would be put down
             for(int i = 0; i < nameArrary.Length; i++){
-                Console.WriteLine(nameArrary[i]+ "\t" + averageArrary[i] + "\t\t" + letterArrary[i]);
+                Console.WriteLine(nameArrary[i]+ "\t" + avgArrary[i] + "\t\t" + letterArrary[i]);
             }
-            //just the averages for the labs, it could have been in a loop so its not this but what works works
-            Console.WriteLine("\n\nThe average for Lab#1 is: " + lab1Total);
-            Console.WriteLine("The average for Lab#2 is: " + lab2Total);
-            Console.WriteLine("The average for Lab#3 is: " + lab3Total);
-            Console.WriteLine("The average for Lab#4 is: " + lab4Total);
-            Console.WriteLine("The average for Lab#5 is: " + lab5Total);
 
-            //mostly just a goodbye statment
-            Console.WriteLine ("\n\nPress any key to leave");
-            Console.ReadKey ();
+            lab1 = lab1 / howManyStu;
+            lab2 = lab2 / howManyStu;
+            lab3 = lab3 / howManyStu;
+            lab4 = lab4 / howManyStu;
+            lab5 = lab5 / howManyStu;
 
 
+            lab1 = Math.Floor(lab1);
+            lab2 = Math.Floor(lab2);
+            lab3 = Math.Floor(lab3);
+            lab4 = Math.Floor(lab4);
+            lab5 = Math.Floor(lab5);
 
 
-
+            Console.WriteLine("\n\nThe average for Lab#1 is: " + lab1);
+            Console.WriteLine("The average for Lab#2 is: " + lab2);
+            Console.WriteLine("The average for Lab#3 is: " + lab3);
+            Console.WriteLine("The average for Lab#4 is: " + lab4);
+            Console.WriteLine("The average for Lab#5 is: " + lab5);
+            
         }
     }
 }
