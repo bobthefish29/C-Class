@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\bin\Debug\net8.0\TestingCode.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\bin\Debug\net8.0\TestingCode.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\bin\Debug\net8.0\TestingCode.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\bin\Debug\net8.0\TestingCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\bin\Debug\net8.0\TestingCode.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\refint\TestingCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\TestingCode.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\TestingCode\obj\Debug\net8.0\ref\TestingCode.dll

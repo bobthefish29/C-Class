@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\bin\Debug\net8.0\ClassLab.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\bin\Debug\net8.0\ClassLab.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\bin\Debug\net8.0\ClassLab.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\bin\Debug\net8.0\ClassLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\bin\Debug\net8.0\ClassLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\refint\ClassLab.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ClassLab.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\ClassLab\obj\Debug\net8.0\ref\ClassLab.dll

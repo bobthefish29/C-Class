@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\bin\Debug\net8.0\InClassNewCode.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\bin\Debug\net8.0\InClassNewCode.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\bin\Debug\net8.0\InClassNewCode.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\bin\Debug\net8.0\InClassNewCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\bin\Debug\net8.0\InClassNewCode.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\refint\InClassNewCode.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\InClassNewCode.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekThree\InClassNewCode\obj\Debug\net8.0\ref\InClassNewCode.dll
