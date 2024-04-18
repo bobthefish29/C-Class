@@ -29,7 +29,16 @@ namespace Week4_classDemo
                     return fName;
                 }
                 set{
-                    fName = value;
+
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        fName = value;
+
+                    }
+                    else{
+
+                        fName = "NULLnf";
+                    }
+                    
                 }
             }
 
@@ -43,7 +52,7 @@ namespace Week4_classDemo
                         mName = value;  
                     }
                     else{
-                        mName = "NULL";
+                        mName = "NULLnm";
                     }
 
                     // mName = value;            
@@ -55,16 +64,30 @@ namespace Week4_classDemo
                     return lName;
                 }
                 set{
-                    lName = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        lName = value; 
+                    }
+                    else{
+                        lName = "NULLnl";
+                    }
+                    
                 }
             }
 
+            //the is where i will have the street
             public string Street1{
                 get{
                     return street1;
                 }
                 set{
-                    street1 = value;
+
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        street1 = value; 
+                    }
+                    else{
+                        street1 = "NULLs1";
+                    }
+                    
                 }
             }
 
@@ -73,7 +96,12 @@ namespace Week4_classDemo
                     return street2;
                 }
                 set{
-                    street2 = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        street2 = value; 
+                    }
+                    else{
+                        street2 = "NULLs2";
+                    }
                 }
             }
 
@@ -82,7 +110,13 @@ namespace Week4_classDemo
                     return city;
                 }
                 set{
-                    city = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        city = value; 
+                    }
+                    else{
+                        city = "NULLc";
+                    }
+                    
                 }
             }
 
@@ -91,7 +125,13 @@ namespace Week4_classDemo
                     return state;
                 }
                 set{
-                    state = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        state = value; 
+                    }
+                    else{
+                        state = "NULLs";
+                    }
+                    
                 }
             }
 
@@ -100,7 +140,13 @@ namespace Week4_classDemo
                     return zip;
                 }
                 set{
-                    zip = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        zip = value; 
+                    }
+                    else{
+                        zip = "NULLz";
+                    }
+                    
                 }
             }
 
@@ -109,7 +155,13 @@ namespace Week4_classDemo
                     return phone;
                 }
                 set{
-                    phone = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        phone = value; 
+                    }
+                    else{
+                        phone = "NULLp";
+                    }
+                    
                 }
             }
 
@@ -118,9 +170,12 @@ namespace Week4_classDemo
                     return email;
                 }
                 set{
-
-
-                    email = value;
+                    if(valueOkay.isDataThere(value, 0) == true){
+                        email = value; 
+                    }
+                    else{
+                        email = "NULLE";
+                    }
                 }
             }
 
@@ -151,6 +206,27 @@ namespace Week4_classDemo
                 
             }
 
+
+            public static bool isBiggerThan(string tempNum, int size)
+            {
+                
+                bool value = false;
+
+                if(tempNum.Length == size){
+                    value = true;
+                }
+                else{
+                    value = false;
+                }
+
+                return value;
+
+
+            }
+
+
+            
+
         }
 
         static void Main(){
@@ -159,39 +235,131 @@ namespace Week4_classDemo
 
             person rec = new person();
 
+            //this must be there
+            // Console.Write("What is your First name? ");
+            // rec.FName = Console.ReadLine();
 
+            
             Console.Write("What is your First name? ");
             rec.FName = Console.ReadLine();
+            // fnTemp = Console.ReadLine();
+
+            // // valedInfo = .TryParse(Console.ReadLine(), out fnTemp);
+            // if (valueOkay.isDataThere(fnTemp, 0) == false){
+            //     Console.WriteLine("Error");
+            // }
+            // else{
+            //     rec.FName = fnTemp;
+            // }
+
+            
 
             //this is calling the sored value but sence its provite it would not show up, the seccond one is setting the value to poopy bacsue its public and not provite
             // rec.fName = "Poopy";
             // rec.FName = "Poopy";
             
-            Console.Write("What is your Middle name(Enter if no name)? ");
+            //this does not have to be there
+            Console.Write("What is your Middle name('-Enter-' if no name)? ");
             rec.MName = Console.ReadLine();
 
+            //this must be there
             Console.Write("What is your Last name? ");
             rec.LName = Console.ReadLine();
 
-
+            //must have one
             Console.Write("What is your Street name? ");
             rec.Street1 = Console.ReadLine();
 
-            Console.Write("What is your Street2 name? ");
+            //this will just be like this
+            Console.Write("What is your Street2 name('-Enter-' if no name)? ");
             rec.Street2 = Console.ReadLine();
-
+            
+            //it must be there
             Console.Write("What is your City name? ");
             rec.City = Console.ReadLine();
 
+            //needs to be a two diget value EX) RI, MA, NY
             Console.Write("What is your State name? ");
             rec.State = Console.ReadLine();
 
-            Console.Write("What is your Zip code? ");
-            rec.Zip = Console.ReadLine();
 
-            Console.Write("What is your phone number? ");
-            rec.Phone = Console.ReadLine();
+            //needs to be five numbers
+            // Console.Write("What is your Zip code? ");
+            // rec.Zip = Console.ReadLine();
 
+            do{
+                // rec.Zip = Console.ReadLine();
+                //makse sure its a number
+                int tempZipInt;
+                do{
+                    Console.Write("What is your Zip code? ");
+                    valedInfo = int.TryParse(Console.ReadLine(), out tempZipInt);
+
+                    if (valedInfo == false){
+                        Console.WriteLine("\nMust be a number\n");
+                    }
+
+
+                }while(valedInfo == false);
+                //setting that number value to a string
+                string tempZipString = tempZipInt.ToString();
+                // valedInfo = int.TryParse(Console.ReadLine(), out tempZip);
+                
+
+                if (valueOkay.isBiggerThan(tempZipString, 5) == true){
+                    valedInfo = true;
+                    rec.Zip = tempZipString;
+                    
+
+                }
+                else{
+                    Console.WriteLine("\nIT must be 5 numbers\n");
+                    valedInfo = false;
+                }
+
+            }while (valedInfo == false);
+
+            //needs to be ten digets
+            // Console.Write("What is your phone number? ");
+            // rec.Phone = Console.ReadLine();
+            
+            do{
+                // rec.Zip = Console.ReadLine();
+                //makse sure its a number
+                int tempPhoneInt = 0;
+                do{
+                    
+                    Console.Write("What is your Phone Number? ");
+                    valedInfo = int.TryParse(Console.ReadLine(), out tempPhoneInt);
+                    
+
+                    if (valedInfo == false){
+                    
+                        Console.WriteLine("\nMust be a number EX) 123-4567\n");
+                    }
+
+                    
+
+                }while(valedInfo == false);
+                //setting that number value to a string
+                string tempPhoneString = tempPhoneInt.ToString();
+                
+                // valedInfo = int.TryParse(Console.ReadLine(), out tempZip);
+                
+                if (valueOkay.isBiggerThan(tempPhoneString, 7) == true){
+                    valedInfo = true;
+                    rec.Phone = tempPhoneString;
+                    
+
+                }
+                else{
+                    Console.WriteLine("\nIT must be 10 numbers\n");
+                    valedInfo = false;
+                }
+
+            }while (valedInfo == false);
+
+            // must be a email with the "@"
             Console.Write("What is your email? ");
             rec.Email = Console.ReadLine();
 
