@@ -238,6 +238,24 @@ namespace Week4_classDemo
                 }
                 return value;
             }
+            //
+
+            //this is to check if the string can be a number
+            public static bool isNumberFromString(string tempNum)
+            {
+                bool value;
+                int tempZipInt;
+                //this is reading the input and making sure it can be a number
+                value = int.TryParse(tempNum, out tempZipInt);
+                //it is is anything other than a number it tells the user
+                if (value == false){
+                        Console.WriteLine("\nMust be a number\n");
+                }
+
+
+
+                return value;
+            }
             
 
         }
@@ -301,21 +319,33 @@ namespace Week4_classDemo
             // rec.Zip = Console.ReadLine();
 
 
+
+            //This is where you left off//////////////////////////////////////////////////
+
             do{
-                //this is making sure its a number,
-                int tempZipInt;
+                
+                string userinputforZip;
+
+                //this is checking if its a number
                 do{
                     Console.Write("What is your Zip code? ");
-                    //this is reading the input and making sure it can be a number
-                    valedInfo = int.TryParse(Console.ReadLine(), out tempZipInt);
-                    //it is is anything other than a number it tells the user
-                    if (valedInfo == false){
-                        Console.WriteLine("\nMust be a number\n");
-                    }
+                    userinputforZip = Console.ReadLine();
+
+                    valedInfo = valueOkay.isNumberFromString(userinputforZip);
                 }while(valedInfo == false);
 
+                // int test = Console.ReadLine();
+                
 
-            }while(valedInfo == true);
+                //this is what you were playing with
+                // if (valueOkay.isEqualToStr(userinputforZip, 5) == true){
+
+                //     rec.Zip = userinputforZip;
+                //     valedInfo = valueOkay.isEqualToStr(userinputforZip, 5);
+
+                // }
+
+            }while(valedInfo == false);
 
 
 
