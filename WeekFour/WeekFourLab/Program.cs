@@ -13,7 +13,8 @@ namespace Week4_classDemo
 
         public class person{
 
-            private string fName;
+            // setting the values, making the first name poopy for the part 2 test
+            private string fName = "Poopy";
             private string mName;
             private string lName;
             private string street1;
@@ -24,6 +25,8 @@ namespace Week4_classDemo
             private string phone;
             private string email;
 
+
+            //the start of the getting and setting for tha values, they are orderd as they appear in the making of data
             public string FName{
                 get{
                     return fName;
@@ -35,7 +38,7 @@ namespace Week4_classDemo
 
                     }
                     else{
-
+                        // Console.WriteLine("testing"); 
                         fName = "NULLnf";
                     }
                     
@@ -190,11 +193,11 @@ namespace Week4_classDemo
 
 
         }
-
-            
-
-
+            //#################The ending of the person class###############
+            //this is the start of the class of okay values
         class valueOkay{
+
+            //This is making sure the data is there, accepthing 2 values and returning a true or false value 
             public static bool isDataThere(string tempValue, int minValue)
             {
                 bool valed = false;
@@ -206,7 +209,7 @@ namespace Week4_classDemo
                 
             }
 
-
+            //this is the same thing but with == to
             public static bool isBiggerThan(string tempNum, int size)
             {
                 
@@ -235,7 +238,7 @@ namespace Week4_classDemo
 
             person rec = new person();
 
-            //this must be there
+            //this must be there also part of part 2 and 1
             // Console.Write("What is your First name? ");
             // rec.FName = Console.ReadLine();
 
@@ -305,7 +308,7 @@ namespace Week4_classDemo
                 string tempZipString = tempZipInt.ToString();
                 // valedInfo = int.TryParse(Console.ReadLine(), out tempZip);
                 
-
+                
                 if (valueOkay.isBiggerThan(tempZipString, 5) == true){
                     valedInfo = true;
                     rec.Zip = tempZipString;
@@ -313,7 +316,7 @@ namespace Week4_classDemo
 
                 }
                 else{
-                    Console.WriteLine("\nIT must be 5 numbers\n");
+                    Console.WriteLine("\nIt must be 5 numbers\n");
                     valedInfo = false;
                 }
 
@@ -359,13 +362,18 @@ namespace Week4_classDemo
 
             }while (valedInfo == false);
 
-            // must be a email with the "@"
+
+
+            
+            // must be a email with the "@" just cus
             Console.Write("What is your email? ");
             rec.Email = Console.ReadLine();
 
 
 
 
+            //########################################################################
+            //This will just be where outputs will be
 
             Console.WriteLine("\nThe Person you just enerted is \n");
             Console.WriteLine(rec.FName);

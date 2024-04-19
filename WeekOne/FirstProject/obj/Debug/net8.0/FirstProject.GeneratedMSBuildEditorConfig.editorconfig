@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstProject
-build_property.ProjectDir = C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekOne\FirstProject\
+build_property.ProjectDir = C:\Users\dpunc\OneDrive\Desktop\C#\C-Class\WeekOne\FirstProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

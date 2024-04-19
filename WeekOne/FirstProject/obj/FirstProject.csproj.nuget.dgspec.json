@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\FirstProject\\FirstProject.csproj": {}
+    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekOne\\FirstProject\\FirstProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\FirstProject\\FirstProject.csproj": {
+    "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekOne\\FirstProject\\FirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\FirstProject\\FirstProject.csproj",
+        "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekOne\\FirstProject\\FirstProject.csproj",
         "projectName": "FirstProject",
-        "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\FirstProject\\FirstProject.csproj",
+        "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekOne\\FirstProject\\FirstProject.csproj",
         "packagesPath": "C:\\Users\\dpunc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekOne\\FirstProject\\obj\\",
+        "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekOne\\FirstProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpunc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
