@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekFour\\WeekFourLab\\WeekFourLab.csproj",
+      "projectUniqueName": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekFour\\WeekFourLab\\WeekFourLab.csproj",
       "projectName": "WeekFourLab",
-      "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekFour\\WeekFourLab\\WeekFourLab.csproj",
+      "projectPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekFour\\WeekFourLab\\WeekFourLab.csproj",
       "packagesPath": "C:\\Users\\dpunc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\C-Class\\WeekFour\\WeekFourLab\\obj\\",
+      "outputPath": "C:\\Users\\dpunc\\OneDrive\\Desktop\\C#\\Projects\\WeekFour\\WeekFourLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dpunc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

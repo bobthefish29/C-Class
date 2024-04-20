@@ -2,7 +2,8 @@
 
 
 //The program works with taking inputs and setting them to the string values, it just need the valadators for the correct information, 
-
+//THe program was going to have the ways of checking to see if the data inputed was there but the grading rubric did nt have that so i did not put it.
+//The program runs with taking input data and storing to prive string, if there is no data that is being inputed than the value is being set to null,
 
 
 
@@ -39,7 +40,7 @@ namespace Week4_classDemo
                     }
                     else{
                         // Console.WriteLine("testing"); 
-                        fName = "NULLnf";
+                        fName = "NULL";
                     }
                     
                 }
@@ -55,7 +56,7 @@ namespace Week4_classDemo
                         mName = value;  
                     }
                     else{
-                        mName = "NULLnm";
+                        mName = "NULL";
                     }
 
                     // mName = value;            
@@ -71,7 +72,7 @@ namespace Week4_classDemo
                         lName = value; 
                     }
                     else{
-                        lName = "NULLnl";
+                        lName = "NULL";
                     }
                     
                 }
@@ -88,7 +89,7 @@ namespace Week4_classDemo
                         street1 = value; 
                     }
                     else{
-                        street1 = "NULLs1";
+                        street1 = "NULL";
                     }
                     
                 }
@@ -103,11 +104,12 @@ namespace Week4_classDemo
                         street2 = value; 
                     }
                     else{
-                        street2 = "NULLs2";
+                        street2 = "NULL";
                     }
                 }
             }
 
+            //this is the start of the city, zip, state setters
             public string City{
                 get{
                     return city;
@@ -117,7 +119,7 @@ namespace Week4_classDemo
                         city = value; 
                     }
                     else{
-                        city = "NULLc";
+                        city = "NULL";
                     }
                     
                 }
@@ -132,7 +134,7 @@ namespace Week4_classDemo
                         state = value; 
                     }
                     else{
-                        state = "NULLs";
+                        state = "NULL";
                     }
                     
                 }
@@ -147,12 +149,14 @@ namespace Week4_classDemo
                         zip = value; 
                     }
                     else{
-                        zip = "NULLz";
+                        zip = "NULL";
                     }
                     
                 }
             }
 
+
+            //this is where the phone and email setters are
             public string Phone{
                 get{
                     return phone;
@@ -162,7 +166,7 @@ namespace Week4_classDemo
                         phone = value; 
                     }
                     else{
-                        phone = "NULLp";
+                        phone = "NULL";
                     }
                     
                 }
@@ -177,24 +181,17 @@ namespace Week4_classDemo
                         email = value; 
                     }
                     else{
-                        email = "NULLE";
+                        email = "NULL";
                     }
                 }
             }
-
-
-
-
-
-
-
-
-
-
-
+        
         }
-            //#################The ending of the person class###############
-            //this is the start of the class of okay values
+            
+            
+        //#################The ending of the person class###############
+        //this is the start of the class of okay values
+        //a lot of them are not being used, they are more here som whne the valators need to be added i have them 
         class valueOkay{
 
             //This is making sure the data is there, accepthing 2 values and returning a true or false value 
@@ -242,16 +239,32 @@ namespace Week4_classDemo
 
         }
 
-        static void Main(){
 
+        //###################################End of the valed data################################endregion
+        //This is where i will put basic tool i need
+        class basicTools{
+
+            // just a quiting tool, it will be changed to allow the user to quit if they want to
+            public static void quit(){
+                
+                Console.WriteLine("\n--Press any key to end the program--");
+                Console.ReadKey();
+
+            }
+        }
+
+        //##################################End of the tools start of the main code#####################
+
+        //This is the main function, any code in here will run
+        static void Main(){
+            
+
+            //this is checnking if the data inputed is correct
             bool valedInfo;
 
             person rec = new person();
 
-            //this must be there also part of part 2 and 1
-            // Console.Write("What is your First name? ");
-            // rec.FName = Console.ReadLine();
-
+            
             
             Console.Write("What is your First name? ");
             rec.FName = Console.ReadLine();
@@ -301,21 +314,24 @@ namespace Week4_classDemo
             // rec.Zip = Console.ReadLine();
 
 
+            
+            //this is making sure its a number,
+            int tempZipInt;
             do{
-                //this is making sure its a number,
-                int tempZipInt;
-                do{
-                    Console.Write("What is your Zip code? ");
+                Console.Write("What is your Zip code? ");
                     //this is reading the input and making sure it can be a number
-                    valedInfo = int.TryParse(Console.ReadLine(), out tempZipInt);
+                valedInfo = int.TryParse(Console.ReadLine(), out tempZipInt);
                     //it is is anything other than a number it tells the user
-                    if (valedInfo == false){
-                        Console.WriteLine("\nMust be a number\n");
-                    }
-                }while(valedInfo == false);
+                if (valedInfo == false){
+                    Console.WriteLine("\nMust be a number\n");
+                }
+            }while(valedInfo == false);
+                
+            string tempZipString = tempZipInt.ToString();
 
-
-            }while(valedInfo == true);
+            rec.Zip = tempZipString;
+            
+            
 
 
 
@@ -363,41 +379,28 @@ namespace Week4_classDemo
 
 
 
+            
+            // rec.Zip = Console.ReadLine();
+            //makse sure its a number
+
+            int tempPhoneInt = 0;
             do{
-                // rec.Zip = Console.ReadLine();
-                //makse sure its a number
-                int tempPhoneInt = 0;
-                do{
-                    
-                    Console.Write("What is your Phone Number? ");
-                    valedInfo = int.TryParse(Console.ReadLine(), out tempPhoneInt);
-                    
-
-                    if (valedInfo == false){
-                    
-                        Console.WriteLine("\nMust be a number EX) 123-4567\n");
-                    }
-
-                    
-
-                }while(valedInfo == false);
-                //setting that number value to a string
-                string tempPhoneString = tempPhoneInt.ToString();
                 
-                // valedInfo = int.TryParse(Console.ReadLine(), out tempZip);
-                
-                if (valueOkay.isEqualToStr(tempPhoneString, 7) == true){
-                    valedInfo = true;
-                    rec.Phone = tempPhoneString;
-                    
+                Console.Write("What is your Phone Number? ");
+                valedInfo = int.TryParse(Console.ReadLine(), out tempPhoneInt);                    
 
-                }
-                else{
-                    Console.WriteLine("\nIT must be 10 numbers\n");
-                    valedInfo = false;
+                if (valedInfo == false){
+                    
+                    Console.WriteLine("\nMust be a number like: 1234567\n");
                 }
 
-            }while (valedInfo == false);
+            
+            }while(valedInfo == false);
+            //setting that number value to a string
+            string tempPhoneString = tempPhoneInt.ToString();
+
+            rec.Phone = tempPhoneString;
+                
 
 
 
@@ -408,27 +411,28 @@ namespace Week4_classDemo
 
 
 
-
+            Console.Clear();
             //########################################################################
             //This will just be where outputs will be
 
             Console.WriteLine("\nThe Person you just enerted is \n");
-            Console.WriteLine(rec.FName);
-            Console.WriteLine(rec.MName);
-            Console.WriteLine(rec.LName);
+            Console.WriteLine($"First Name: {rec.FName}");
+            Console.WriteLine($"Middle Name: {rec.MName}");
+            Console.WriteLine($"Last Name: {rec.LName}");
 
-            Console.WriteLine(rec.Street1);
-            Console.WriteLine(rec.Street2);
+            Console.WriteLine($"\n1 Street: {rec.Street1}");
+            Console.WriteLine($"2 Street: {rec.Street2}");
 
-            Console.WriteLine(rec.City);
-            Console.WriteLine(rec.State);
-            Console.WriteLine(rec.Zip);
+            Console.WriteLine($"\nCity: {rec.City}");
+            Console.WriteLine($"State: {rec.State}");
+            Console.WriteLine($"Zip Code: {rec.Zip}");
 
-            Console.WriteLine(rec.Phone);
-            Console.WriteLine(rec.Email);
+            Console.WriteLine($"\nPhone Number: {rec.Phone}");
+            Console.WriteLine($"Email: {rec.Email}");
 
 
             
+            basicTools.quit();
 
         }
 
