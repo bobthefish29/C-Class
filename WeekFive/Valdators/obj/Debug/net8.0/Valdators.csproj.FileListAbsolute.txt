@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\bin\Debug\net8.0\Valdators.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\bin\Debug\net8.0\Valdators.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\bin\Debug\net8.0\Valdators.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\bin\Debug\net8.0\Valdators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\bin\Debug\net8.0\Valdators.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\refint\Valdators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\Valdators.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekFive\Valdators\obj\Debug\net8.0\ref\Valdators.dll
