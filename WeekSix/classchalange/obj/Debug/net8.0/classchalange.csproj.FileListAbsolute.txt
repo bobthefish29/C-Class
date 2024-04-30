@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\bin\Debug\net8.0\classchalange.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\bin\Debug\net8.0\classchalange.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\bin\Debug\net8.0\classchalange.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\bin\Debug\net8.0\classchalange.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\bin\Debug\net8.0\classchalange.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\refint\classchalange.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\classchalange.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\classchalange\obj\Debug\net8.0\ref\classchalange.dll
