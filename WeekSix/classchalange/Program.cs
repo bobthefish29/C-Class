@@ -1,56 +1,26 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
 using System;
-
 namespace classDemo {
-
-
-
-
-
-
     class Program {
-        
-
-        static string rev(string text){
-            // Console.WriteLine(text);
-            string newText = "";
-            for(int i = text.Length - 1; i >= 0; i-- ){
-                // Console.Write(text[i]);
-                newText += text[i];
-                // string newText = text[i];
-            }
-            //Returning
-            
-            return newText;
-        }
-
-
-        static bool isPalindrome(string text, string newText){
-        
-            if (text != newText){
+        static bool isPalindrome(string text){
+            if(text.Length == 0 ){
                 return false;
+            }
+            for(int i = 0 ; i <= (text.Length - 1) / 2; i++ ){
+                if(Char.ToLower(text[text.Length - 1 - i]) != Char.ToLower(text[i])){
+                    return false;
+                }
             }
             return true;
         }
-
-
-
         static void Main (string[] args) {
             string text = "";
             string afterText = "";
             bool isTrue;
             Console.Write("What is the value: ");
             text = Console.ReadLine();
-
-            afterText = rev(text);
-
-            isTrue = isPalindrome(text, afterText);
-
-            Console.Write(isTrue);
+            isTrue = isPalindrome(text);
+            Console.Write($"The Value you entered is {isTrue}");
         }
     }
 }
-
-
-
