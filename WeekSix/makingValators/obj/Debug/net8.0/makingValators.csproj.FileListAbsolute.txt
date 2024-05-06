@@ -1,0 +1,15 @@
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\bin\Debug\net8.0\makingValators.exe
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\bin\Debug\net8.0\makingValators.deps.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\bin\Debug\net8.0\makingValators.runtimeconfig.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\bin\Debug\net8.0\makingValators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\bin\Debug\net8.0\makingValators.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.AssemblyInfoInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.AssemblyInfo.cs
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.csproj.CoreCompileInputs.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.sourcelink.json
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\refint\makingValators.dll
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.pdb
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\makingValators.genruntimeconfig.cache
+C:\Users\dpunc\OneDrive\Desktop\C#\Projects\WeekSix\makingValators\obj\Debug\net8.0\ref\makingValators.dll
